@@ -1,0 +1,9 @@
+version: "1"
+rules:
+  - base: master
+    upstream: vercel:main
+    mergeMethod: merge
+    assignees:
+      - ThomasIAm
+    conflictReviewers:
+      - ThomasIAm
