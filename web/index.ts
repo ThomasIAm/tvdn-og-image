@@ -142,16 +142,15 @@ const markdownOptions: DropdownOption[] = [
 ];
 
 const imageLightOptions: DropdownOption[] = [
-    { text: 'Vercel', value: 'https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-black.svg' },
-    { text: 'Next.js', value: 'https://assets.vercel.com/image/upload/front/assets/design/nextjs-black-logo.svg' },
-    { text: 'Hyper', value: 'https://assets.vercel.com/image/upload/front/assets/design/hyper-color-logo.svg' },
+    { text: 'TvdN', value: 'https://github.com/ThomasIAm/personal-site-hydejack/blob/2bf26cb96f84ebcbf2f8b3e4b7d9f5f0633e6168/assets/global/img/logo/logo.svg' },
+    { text: 'Face', value: 'https://github.com/ThomasIAm/personal-site-hydejack/blob/2bf26cb96f84ebcbf2f8b3e4b7d9f5f0633e6168/assets/global/img/face/face-2673x2673.jpg' },
+    { text: 'None', value: '' },
 ];
 
 const imageDarkOptions: DropdownOption[] = [
-
-    { text: 'Vercel', value: 'https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-white.svg' },
-    { text: 'Next.js', value: 'https://assets.vercel.com/image/upload/front/assets/design/nextjs-white-logo.svg' },
-    { text: 'Hyper', value: 'https://assets.vercel.com/image/upload/front/assets/design/hyper-bw-logo.svg' },
+    { text: 'TvdN', value: 'https://github.com/ThomasIAm/personal-site-hydejack/blob/2bf26cb96f84ebcbf2f8b3e4b7d9f5f0633e6168/assets/global/img/logo/logo.svg' },
+    { text: 'Face', value: 'https://github.com/ThomasIAm/personal-site-hydejack/blob/2bf26cb96f84ebcbf2f8b3e4b7d9f5f0633e6168/assets/global/img/face/face-2673x2673.jpg' },
+    { text: 'None', value: '' },
 ];
 
 const widthOptions = [
