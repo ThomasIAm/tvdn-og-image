@@ -144,13 +144,13 @@ const markdownOptions: DropdownOption[] = [
 const imageLightOptions: DropdownOption[] = [
     { text: 'TvdN', value: 'https://github.com/ThomasIAm/personal-site-hydejack/raw/2bf26cb96f84ebcbf2f8b3e4b7d9f5f0633e6168/assets/global/img/logo/logo.svg' },
     { text: 'Face', value: 'https://github.com/ThomasIAm/personal-site-hydejack/raw/2bf26cb96f84ebcbf2f8b3e4b7d9f5f0633e6168/assets/global/img/face/face-2673x2673.jpg' },
-    { text: 'None', value: '' },
+    { text: 'None', value: 'https://upload.wikimedia.org/wikipedia/commons/c/ca/1x1.png' },
 ];
 
 const imageDarkOptions: DropdownOption[] = [
     { text: 'TvdN', value: 'https://github.com/ThomasIAm/personal-site-hydejack/raw/2bf26cb96f84ebcbf2f8b3e4b7d9f5f0633e6168/assets/global/img/logo/logo.svg' },
     { text: 'Face', value: 'https://github.com/ThomasIAm/personal-site-hydejack/raw/2bf26cb96f84ebcbf2f8b3e4b7d9f5f0633e6168/assets/global/img/face/face-2673x2673.jpg' },
-    { text: 'None', value: '' },
+    { text: 'None', value: 'https://upload.wikimedia.org/wikipedia/commons/c/ca/1x1.png' },
 ];
 
 const widthOptions = [
