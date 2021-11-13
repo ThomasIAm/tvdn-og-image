@@ -148,7 +148,7 @@ const imageLightOptions: DropdownOption[] = [
 ];
 
 const imageDarkOptions: DropdownOption[] = [
-    { text: 'TvdN', value: 'https://github.com/ThomasIAm/personal-site-hydejack/blob/2bf26cb96f84ebcbf2f8b3e4b7d9f5f0633e6168/assets/global/img/logo/logo.svg' },
+    { text: 'TvdN', value: 'https://github.com/ThomasIAm/personal-site-hydejack/raw/2bf26cb96f84ebcbf2f8b3e4b7d9f5f0633e6168/assets/global/img/logo/logo.svg' },
     { text: 'Face', value: 'https://github.com/ThomasIAm/personal-site-hydejack/raw/2bf26cb96f84ebcbf2f8b3e4b7d9f5f0633e6168/assets/global/img/face/face-2673x2673.jpg' },
     { text: 'None', value: '' },
 ];
