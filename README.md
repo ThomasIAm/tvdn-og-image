@@ -1,6 +1,8 @@
-<a href="https://vercel.com/new/project?template=vercel/og-image"><img width="128" src="https://vercel.com/button" align="right"></a>
+<a href="https://vercel.com/new/project?template=thomasiam/tvdn-og-image"><img width="128" src="https://vercel.com/button" align="right"></a>
 
-# [Open Graph Image as a Service](https://og-image.vercel.app)
+# [Open Graph Image as a Service](https://tvdn-og-image.vercel.app/)
+
+[![CodeFactor](https://www.codefactor.io/repository/github/thomasiam/tvdn-og-image/badge)](https://www.codefactor.io/repository/github/thomasiam/tvdn-og-image)
 
 <a href="https://twitter.com/vercel">
     <img align="right" src="https://og-image.vercel.app/tweet.png" height="300" />
@@ -66,3 +68,4 @@ Once you have an image generator that sparks joy, you can setup [automatic GitHu
 
 - Steven ([@styfle](https://twitter.com/styfle)) - [Vercel](https://vercel.com)
 - Evil Rabbit ([@evilrabbit](https://twitter.com/evilrabbit_)) - [Vercel](https://vercel.com)
+- Thomas van den Nieuwenhoff - [website](https://tvdn.me)
