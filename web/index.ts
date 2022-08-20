@@ -221,13 +221,13 @@ const App = (_: any, state: AppState, setState: SetState) => {
     url.searchParams.append('theme', theme);
     url.searchParams.append('md', mdValue);
     url.searchParams.append('fontSize', fontSize);
-    for (let image of images) {
+    for (const image of images) {
         url.searchParams.append('images', image);
     }
-    for (let width of widths) {
+    for (const width of widths) {
         url.searchParams.append('widths', width);
     }
-    for (let height of heights) {
+    for (const height of heights) {
         url.searchParams.append('heights', height);
     }
 
@@ -243,7 +243,7 @@ const App = (_: any, state: AppState, setState: SetState) => {
                         value: theme,
                         onchange: (val: Theme) => {
                             const options = val === 'light' ? imageLightOptions : imageDarkOptions
-                            let clone = [...images];
+                            const clone = [...images];
                             clone[0] = options[selectedImageIndex].value;
                             setLoadingState({ theme: val, images: clone });
                         }
@@ -290,7 +290,7 @@ const App = (_: any, state: AppState, setState: SetState) => {
                             options: imageOptions,
                             value: imageOptions[selectedImageIndex].value,
                             onchange: (val: string) =>  {
-                                let clone = [...images];
+                                const clone = [...images];
                                 clone[0] = val;
                                 const selected = imageOptions.map(o => o.value).indexOf(val);
                                 setLoadingState({ images: clone, selectedImageIndex: selected });
@@ -303,7 +303,7 @@ const App = (_: any, state: AppState, setState: SetState) => {
                                 value: widths[0],
                                 small: true,
                                 onchange: (val: string) =>  {
-                                    let clone = [...widths];
+                                    const clone = [...widths];
                                     clone[0] = val;
                                     setLoadingState({ widths: clone });
                                 }
@@ -313,7 +313,7 @@ const App = (_: any, state: AppState, setState: SetState) => {
                                 value: heights[0],
                                 small: true,
                                 onchange: (val: string) =>  {
-                                    let clone = [...heights];
+                                    const clone = [...heights];
                                     clone[0] = val;
                                     setLoadingState({ heights: clone });
                                 }
@@ -327,7 +327,7 @@ const App = (_: any, state: AppState, setState: SetState) => {
                         H(TextInput, {
                             value: image,
                             oninput: (val: string) => {
-                                let clone = [...images];
+                                const clone = [...images];
                                 clone[i + 1] = val;
                                 setLoadingState({ images: clone, overrideUrl: url });
                             }
@@ -339,7 +339,7 @@ const App = (_: any, state: AppState, setState: SetState) => {
                                 value: widths[i + 1],
                                 small: true,
                                 onchange: (val: string) =>  {
-                                    let clone = [...widths];
+                                    const clone = [...widths];
                                     clone[i + 1] = val;
                                     setLoadingState({ widths: clone });
                                 }
@@ -349,7 +349,7 @@ const App = (_: any, state: AppState, setState: SetState) => {
                                 value: heights[i + 1],
                                 small: true,
                                 onchange: (val: string) =>  {
-                                    let clone = [...heights];
+                                    const clone = [...heights];
                                     clone[i + 1] = val;
                                     setLoadingState({ heights: clone });
                                 }
